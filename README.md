@@ -1,1 +1,1 @@
-## Full-stack Web Application Development Course 
+# EMAILY Project
