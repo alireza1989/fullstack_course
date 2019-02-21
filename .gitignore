@@ -2,3 +2,5 @@ node_modules
 .DS_Store
 .DS_Store?
 dev.js
+.env.production
+.env.development
