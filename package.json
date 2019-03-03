@@ -1,7 +1,7 @@
 {
-  "name": "wsp_brain_website",
+  "name": "EMAILY",
   "version": "1.0.0",
-  "description": "The WSP brain framework",
+  "description": "Emaily Application",
   "main": "index.js",
   "engines": {
     "node": "10.14.1",
@@ -11,7 +11,8 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client" 
   },
   "author": "Alireza Darbehani",
   "license": "ISC",
