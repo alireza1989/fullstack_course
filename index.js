@@ -25,6 +25,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require("./routes/authRoutes")(app);
+require("./routes/surveyRoutes")(app);
 require("./routes/billingRoutes")(app);
 
 // Production configuration to be able to serve React App
